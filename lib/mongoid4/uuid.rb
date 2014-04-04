@@ -1,4 +1,5 @@
 require "mongoid4/uuid/version"
+require "uuid"
 
 module Mongoid4
   module Uuid
