@@ -5,7 +5,7 @@ require 'mongoid4/uuid/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "mongoid4-uuid"
-  spec.version       = Mongoid4::Uuid::VERSION
+  spec.version       = Mongoid4::UUID::VERSION
   spec.authors       = ["John Allen", "Adam Ferguson"]
   spec.email         = ["john@threedogconsulting.com", "Adam.Brugh.Ferguson@gmail.com"]
   spec.description   = %q{Use UUID's as primary keys in Mongoid collections}
