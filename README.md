@@ -1,4 +1,4 @@
-# Mongoid4::Uuid
+# Mongoid4::UUID
 
 TODO: Write a gem description
 
