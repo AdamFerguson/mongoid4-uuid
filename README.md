@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include this module in your Mongoid models and you will get UUID's for _id's
+
+```ruby
+class Model
+  include Mongoid::Document
+  include Mongoid4::UUID
+end
+```
 
 ## Contributing
 
