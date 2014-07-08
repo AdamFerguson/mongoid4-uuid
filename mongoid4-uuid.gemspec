@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Mongoid4::UUID::VERSION
   spec.authors       = ["John Allen", "Adam Ferguson"]
   spec.email         = ["john@threedogconsulting.com", "Adam.Brugh.Ferguson@gmail.com"]
-  spec.description   = %q{Use UUID's as primary keys in Mongoid collections}
+  spec.description   = %q{UUID's for Mongoid4}
   spec.summary       = %q{Use UUID's as primary keys in Mongoid collections}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/AdamFerguson/mongoid4-uuid"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,10 +18,10 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "uuid", "~> 2.3.7"
+  spec.add_dependency "uuid", "~> 2"
   spec.add_dependency "mongoid", "~> 4"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "pry", "~> 0.9"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 0"
   spec.add_development_dependency "rspec", "~> 3.0"
 end
