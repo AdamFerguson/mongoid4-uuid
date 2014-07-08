@@ -19,6 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "uuid", "~> 2.3.7"
+  spec.add_dependency "mongoid", "~> 4"
   spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "pry", "~> 0.9"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec", "~> 3.0"
 end
